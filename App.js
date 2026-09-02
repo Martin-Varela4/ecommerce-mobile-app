@@ -1,11 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { StyleSheet, View } from 'react-native';
+import ProductCard from './components/ProductCard';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <ProductCard />
     </View>
   );
 }
@@ -13,8 +13,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
+    backgroundColor: '#f2f4f8',
     justifyContent: 'center',
+    alignItems: 'center',
+    paddingTop: 40, // Esto evita que choque con la barra superior del celular
   },
 });
