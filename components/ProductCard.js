@@ -17,7 +17,8 @@ export default function ProductCard() {
     <View style={styles.card}>
       {/* Imagen remota del producto */}
       <Image 
-        source={{ uri: 'https://unsplash.com' }} 
+
+        source={{ uri: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }} 
         style={styles.image} 
       />
       
